@@ -14,7 +14,7 @@ library("zoo")
 # results list()
 results <- list()
 
-# read sample data
+# read sample data - make sure to setwd() to your this local repository directory
 champagne2 <- read_excel("champagne-sales.xlsx")
 
 
