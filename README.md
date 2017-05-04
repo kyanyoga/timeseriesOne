@@ -1,4 +1,4 @@
-# Recipes
+# Time Series R Arima example. Vizualize with Excel - Tableau.
 This repository contains a simple time series example.
 The example will load champagne sales data, forecast via ARIMA
 future sales and then export the data back to an excel workbook.
@@ -15,5 +15,5 @@ https://public.tableau.com/views/ForecastArimaTS_020/Dashboard1
 
 # Have Fun
 Please email me at : support@blueskymetrics.com if you have
-a question or need help with you data platform.
+a question or need help with your data platform.
 
