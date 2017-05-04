@@ -1,19 +1,29 @@
 # Time Series R Arima example. Vizualize with Excel - Tableau.
 This repository contains a simple time forecast series example.
 
-The example will load champagne sales data from a excel spread sheet;
-forecast via ARIMA future sales and then export the data back to an excel
-workbook.
+## Overview
 
-Main Take away. You CAN use R and Tableau Public (free version) to 
-reproduce plots for time series R data in Tableau by doing most of
-the heavy lifting in R and/or Excel.
+The example will load champagne sales data from a excel spread sheet,
+build various time series data sets, forecast and analysis plots in R.
+Finally, We'll show you how to replicate some plots in Tableau public.
+
+### Highlights
+
+* Loading Data from Excel into R.
+* Convert Data into a TimeSeries.
+* Transform Data to Stationary.
+* Plot decompose, Plot ACF | PACF.
+* Test with Ljung-Box.
+* Build Arima with Auto Arima verify from Previous Plots.
+* Build Forecast Model wtih Auto Arima Results and Plot.
+* Export core data and forecast for further analysis to Excel.
+* See what you can Visualize in another tool i.e. Tableau Public.
 
 # Updates
  
 
 ## Link to Tableau Public : Example Visual ##
-Please see my Tableau example below:
+Please see my Tableau example:
 https://public.tableau.com/views/ForecastArimaTS_020/Dashboard1
 
 # Have Fun
