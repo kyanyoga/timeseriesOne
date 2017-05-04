@@ -8,7 +8,6 @@ build various time series data sets, forecast and analysis plots in R.
 Finally, We'll show you how to replicate some plots in Tableau public.
 
 ### Highlights
-![screenshot](../images/compare_r_tableau.PNG)
 
 * Loading Data from Excel into R.
 * Convert Data into a TimeSeries.
@@ -19,6 +18,8 @@ Finally, We'll show you how to replicate some plots in Tableau public.
 * Build Forecast Model wtih Auto Arima Results and Plot.
 * Export core data and forecast for further analysis to Excel.
 * See what you can Visualize in another tool i.e. Tableau Public.
+
+![screenshot](https://github.com/kyanyoga/timeseriesOne/blob/master/images/compare_r_tableau.PNG)
 
 # Updates
  
