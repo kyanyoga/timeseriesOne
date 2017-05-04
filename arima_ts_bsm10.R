@@ -74,11 +74,19 @@ results_together <- do.call(rbind,lapply(names(results),function(x){
   transform(as.data.frame(results[[x]]), Name = x)
 }))
 
-# create workbook and write output
+# Note: Use this snippet to re-produce the source data from my Tableau Visual
+wb <- createWorkbook()
+addWorksheet(wb, "Forecasts")
+writeData(wb, "Forecasts", df.champagne, rowNames = FALSE)
+writeData(wb, "Forecasts", results_together, rowNames = TRUE)
+saveWorkbook(wb, "Forcasts.xlsx", overwrite = TRUE)
+
+# Note: Use this snippet to create two sheets in one book - Use Union of source data in Tableau
+# to combine both sheets into one data set.  You may want to look at the data in different sets.
 wb <- createWorkbook()
 addWorksheet(wb, "HistoryData")
 addWorksheet(wb, "Forecasts")
 writeData(wb, "HistoryData", df.champagne, rowNames = FALSE)
 writeData(wb, "Forecasts", results_together, rowNames = TRUE)
-saveWorkbook(wb, "Forcasts.xlsx", overwrite = TRUE)
+saveWorkbook(wb, "Forcasts2.xlsx", overwrite = TRUE)
 
